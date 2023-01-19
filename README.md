@@ -45,6 +45,10 @@ Additional options:
 ```
 python compute_kernels.py -i image_path -m kernels_prediction_model_path
 ```
+Our method generalize better to datasets not seen during training. Other methods motion fields are correlated with the image structure, suffer from the aperture problem and predict deltas on low variance regions.
+<p align="center">
+<img width="900" src="imgs/kernels_Kohler.png?raw=true">
+  </p>
 
 
 ## Aknowledgments 

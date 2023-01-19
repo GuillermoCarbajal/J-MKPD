@@ -22,7 +22,7 @@ git clone https://github.com/GuillermoCarbajal/J-MKPD.git
 
 ### Download deblurring models
 
-[Kernels Prediction Model](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_sat/80000_kernels_network.pth)
+[Kernels Prediction Model](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_sat/80000_kernels_network.pth)           
 [Restoration Network](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_sat/80000_G.pth)
 
 ### Deblur an image or a list of images
@@ -39,9 +39,9 @@ Additional options:
   `--gamma_factor`: gamma correction factor. By default is assummed `gamma_factor=2.2`. For Kohler dataset images `gamma_factor=1.0`.
   
 
-```
 
 ### Compute kernels from an image
+
 ```
 python compute_kernels.py -i image_path -m kernels_prediction_model_path
 ```

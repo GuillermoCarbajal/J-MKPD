@@ -20,15 +20,10 @@ The proposed motion deblurring method generalizes well and produces sharp restor
 git clone https://github.com/GuillermoCarbajal/J-MKPD.git
 ```
 
-### Download the pretrained model
+### Download deblurring models
 
-Model can be downloaded from [here](https://www.dropbox.com/s/ro9smg1i7lh5b8d/TwoHeads.pkl?dl=0)   
-
-### Compute kernels from an image
-```
-python compute_kernels.py -i image_path -m model_path
-```
-
+[Kernels Prediction Model](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_sat/80000_kernels_network.pth)
+[Restoration Network](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_sat/80000_G.pth)
 
 ### Deblur an image or a list of images
 ```
@@ -45,6 +40,13 @@ Additional options:
   
 
 ```
+
+### Compute kernels from an image
+```
+python compute_kernels.py -i image_path -m kernels_prediction_model_path
+```
+
+
 ## Aknowledgments 
 
 GC was supported partially by Agencia Nacional de Investigacion e Innovación (ANII, Uruguay) ´grant POS FCE 2018 1 1007783 and PV by the MICINN/FEDER UE project under Grant PGC2018- 098625-B-I0; H2020-MSCA-RISE-2017 under Grant 777826 NoMADS and Spanish Ministry of Economy and Competitiveness under the Maria de Maeztu Units of Excellence Programme (MDM-2015-0502). The experiments presented in this paper were carried out using ClusterUY (site: https://cluster.uy) and GPUs donated by NVIDIA Corporation. We also thanks Juan F. Montesinos for his help during the experimental phase.

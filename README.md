@@ -51,6 +51,16 @@ Our method generalize better to datasets not seen during training. Other methods
   </p>
 
 
+### Saturated images examples
+
+[Kernels Prediction Model (light streaks)](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_sat_streaks/80000_kernels_network.pth)           
+[Restoration Network (light streaks)](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_sat_streaks/80000_G.pth)
+
+
+<p align="center">
+<img width="900" src="imgs/sat_images_examples.png?raw=true">
+  </p>
+
 ## Aknowledgments 
 
 GC was supported partially by Agencia Nacional de Investigacion e Innovación (ANII, Uruguay) ´grant POS FCE 2018 1 1007783 and PV by the MICINN/FEDER UE project under Grant PGC2018- 098625-B-I0; H2020-MSCA-RISE-2017 under Grant 777826 NoMADS and Spanish Ministry of Economy and Competitiveness under the Maria de Maeztu Units of Excellence Programme (MDM-2015-0502). The experiments presented in this paper were carried out using ClusterUY (site: https://cluster.uy) and GPUs donated by NVIDIA Corporation. We also thanks Juan F. Montesinos for his help during the experimental phase.

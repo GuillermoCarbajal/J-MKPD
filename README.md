@@ -1,7 +1,7 @@
 # J-MKPD
 
 Official Pytorch Implementation  of Blind Motion Deblurring with Pixel-Wise Kernel
-Estimation via Kernel Prediction Networks [<a href="https://arxiv.org/abs/2102.01026">ArXiv</a>]     
+Estimation via Kernel Prediction Networks    
 
 The proposed motion deblurring method generalizes well and produces sharp restorations on real images, in some cases even sharpen than *ground-truth* images. The commonly used quality metric PSNR favors blurry outputs. We show that by increasing the PSRN of the restoration by blurring our deblurring results. Metrics that measure the sharpness of an image (such as CPBD) correlate well with our perception of sharpness.
 <p align="center">

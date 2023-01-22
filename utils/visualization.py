@@ -53,7 +53,7 @@ def save_kernels_grid_(blurry_image, kernels, masks, image_name):
     #self.add_image(image_name, grid_to_draw, step)
 
     imsave(image_name, img_as_ubyte(grid_to_draw.transpose((1, 2, 0))))
-    return grid_to_draw
+    return grid_to_draw.transpose((1, 2, 0)
 
 
 def save_kernels_grid_green(blurry_image, kernels, masks, image_name):
@@ -122,6 +122,6 @@ def save_kernels_grid(blurry_image, kernels, masks, image_name):
 
     grid_to_draw = np.clip(grid_to_draw, 0, 1)
     imsave(image_name, img_as_ubyte(grid_to_draw.transpose((1, 2, 0))))
-    return grid_to_draw
+    return grid_to_draw.transpose((1, 2, 0)
 
    

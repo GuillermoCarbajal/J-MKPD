@@ -18,8 +18,7 @@ The proposed motion deblurring method generalizes well and produces sharp restor
 
 * <a href="https://colab.research.google.com/github/GuillermoCarbajal/J-MKPD/blob/main/J-MKPD_demo.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-## Getting Started
-
+## Installation
 ### Clone Repository
 ```
 git clone https://github.com/GuillermoCarbajal/J-MKPD.git

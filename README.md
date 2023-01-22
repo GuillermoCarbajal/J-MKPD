@@ -13,12 +13,18 @@ The proposed motion deblurring method generalizes well and produces sharp restor
 <img width="900" src="imgs/architecture.png?raw=true">
   </p>
   
+## Quick Demo
+
+
+* <a href="https://colab.research.google.com/github/GuillermoCarbajal/J-MKPD/blob/main/BlindNIMBUSR_demo.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 ## Getting Started
 
 ### Clone Repository
 ```
 git clone https://github.com/GuillermoCarbajal/J-MKPD.git
 ```
+
 
 ### Download deblurring models
 

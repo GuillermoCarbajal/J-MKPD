@@ -1,7 +1,7 @@
 # J-MKPD
 
-Official Pytorch Implementation  of Blind Motion Deblurring with Pixel-Wise Kernel
-Estimation via Kernel Prediction Networks    
+Official Pytorch Implementation  of *Blind Motion Deblurring with Pixel-Wise Kernel
+Estimation via Kernel Prediction Networks*    
 
 [Article submitted to TCI](https://iie.fing.edu.uy/~carbajal/TCI/J-MKPD.pdf)  
 [Supp. Mat](https://iie.fing.edu.uy/~carbajal/TCI/J-MKPD_supp_mat.pdf)

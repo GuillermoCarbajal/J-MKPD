@@ -4,8 +4,7 @@ Official Pytorch Implementation  of *Blind Motion Deblurring with Pixel-Wise Ker
 Estimation via Kernel Prediction Networks*. 
 
 This [article](https://iie.fing.edu.uy/~carbajal/TCI/J-MKPD.pdf) was submitted to IEEE Transactions On Computational Imaging. [Supp. Material](https://iie.fing.edu.uy/~carbajal/TCI/J-MKPD_supp_mat.pdf)  
-
-The proposed motion deblurring method generalizes well and produces sharp restorations on real images, in some cases even sharpen than *ground-truth* images. The commonly used quality metric PSNR favors blurry outputs. We show that by increasing the PSRN of the restoration by blurring our deblurring results. Metrics that measure the sharpness of an image (such as CPBD) correlate well with our perception of sharpness.
+The proposed motion deblurring method demonstrates strong generalization capabilities, delivering sharp image restorations on real-world photographs. In certain instances, it even surpasses the sharpness of the ground-truth images. It is worth noting that the conventional quality metric PSNR tends to favor blurred outputs. Thus, an increase in PSNR can be achieved by blurring the restoration. In contrast, employing metrics designed to gauge image sharpness, such as CPBD, aligns more closely with our perception of sharpness and offers a better assessment of the restoration quality.
 <p align="center">
 <img width="700" src="imgs/realblur_results.png?raw=true">
 </p>
@@ -29,8 +28,8 @@ git clone https://github.com/GuillermoCarbajal/J-MKPD.git
 
 ### Download deblurring models
 
-[Kernels Prediction Model](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_sat/80000_kernels_network.pth)           
-[Restoration Network](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_sat/80000_G.pth)
+[Kernels Prediction Model](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_aug_all_loss/80000_kernels_network.pth)           
+[Restoration Network](https://iie.fing.edu.uy/~carbajal/IEEE_CI_models/COCO900_restL2_aug_all_loss/80000_G.pth)
 
 ### Deblur an image or a list of images
 ```

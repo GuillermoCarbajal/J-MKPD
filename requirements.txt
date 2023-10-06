@@ -4,3 +4,4 @@ numpy
 opencv-python
 matplotlib
 scikit-image
+gdown
